@@ -1,4 +1,4 @@
-package Generics.AnonymousInnerClasses;
+package Generics;
 
 import java.util.LinkedList;
 import java.util.List;

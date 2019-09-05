@@ -1,4 +1,4 @@
-package Generics.AnonymousInnerClasses;
+package Generics;
 
 public class EX_20 {
     public static void main(String[] args) {
@@ -43,7 +43,7 @@ class mClass_1 {
 
     public <T extends mInterface> void genMethod(mClass obj) {
 
-        obj.f();
+        obj.h();
 
     }
 }

@@ -1,4 +1,4 @@
-package Generics.AnonymousInnerClasses;
+package Generics;
 
 class ManipulatorTest {
     public static void main(String[] args) {

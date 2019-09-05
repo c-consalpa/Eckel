@@ -1,4 +1,4 @@
-package Generics.AnonymousInnerClasses;
+package Generics;
 
 public class AIC_1 {
     public static void main(String[] args) {
