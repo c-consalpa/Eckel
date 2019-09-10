@@ -1,7 +1,8 @@
 package Generics.Bounds;
 
 //
-//        Bounds allow you to place constraints on the parameter types that can be used with generics. Although this allows you to
+//        Bounds allow you to place constraints on the parameter types that can be used with generics. Although this
+//        allows you to
 //        enforce rules about the types that your generics can be applied to, a potentially more important effect is that
 //        you can call methods that are in your bound types.
 //        Because erasure removes type information, the only methods you can call for an unbounded generic parameter are
