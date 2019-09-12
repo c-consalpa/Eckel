@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4897941-e4d6-486c-8d45-81836d22b16a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays_1/Arrays_fill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays_1/RandomString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays_1/mString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Adapters/Fill2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/DecoratorPattern/Decoration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Wildcards/CatsIntoDogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Procedural/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/CollectionData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/MapGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Procedural/MyQuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/Bounds/BasicBounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Bounds/BasicBounds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Procedural/QuickSort.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,38 +20,38 @@
     <session id="1635229968">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="3" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="41" />
+          <entry key="java" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8205" />
-          <entry key="txt" value="24" />
+          <entry key="java" value="10201" />
+          <entry key="txt" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8204" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="JAVA" value="10200" />
+          <entry key="PLAIN_TEXT" value="45" />
           <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
@@ -65,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Arrays_1/RandomString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="204">
               <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,14 +73,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Procedural/QuickSort.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Procedural/MyQuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/MapGeneratorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/CollectionData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/Generator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#89#90#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,6 +192,12 @@
         <option value="$PROJECT_DIR$/src/Arrays_1/mString.java" />
         <option value="$PROJECT_DIR$/src/Arrays_1/RandomString.java" />
         <option value="$PROJECT_DIR$/src/Procedural/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/Procedural/MyQuickSort.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/MapGenerator.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/MapGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/CollectionsData.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/CollectionData.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/Generator.java" />
       </list>
     </option>
   </component>
@@ -185,6 +227,12 @@
               <item name="Eckel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Eckel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eckel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionsInDepth" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -194,7 +242,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568113325393" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568330502973" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -212,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomString">
+  <component name="RunManager" selected="Application.GenTest">
     <configuration name="Arrays_fill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays_1.Arrays_fill" />
       <module name="Eckel" />
@@ -226,12 +274,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatsIntoDogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Wildcards.CatsIntoDogs" />
+    <configuration name="GenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsInDepth.GenTest" />
       <module name="Eckel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generics.Wildcards.*" />
+          <option name="PATTERN" value="CollectionsInDepth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,12 +287,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericWriting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Wildcards.GenericWriting" />
+    <configuration name="MyQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Procedural.MyQuickSort" />
       <module name="Eckel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generics.Wildcards.*" />
+          <option name="PATTERN" value="Procedural.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,12 +300,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Medium_Variance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Wildcards.Medium_Variance" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Procedural.QuickSort" />
       <module name="Eckel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generics.Wildcards.*" />
+          <option name="PATTERN" value="Procedural.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,19 +327,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GenericWriting" />
-      <item itemvalue="Application.Medium_Variance" />
-      <item itemvalue="Application.CatsIntoDogs" />
       <item itemvalue="Application.Arrays_fill" />
       <item itemvalue="Application.RandomString" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.MyQuickSort" />
+      <item itemvalue="Application.GenTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenTest" />
+        <item itemvalue="Application.MyQuickSort" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.RandomString" />
         <item itemvalue="Application.Arrays_fill" />
-        <item itemvalue="Application.CatsIntoDogs" />
-        <item itemvalue="Application.Medium_Variance" />
-        <item itemvalue="Application.GenericWriting" />
       </list>
     </recent_temporary>
   </component>
@@ -313,13 +361,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567772676631</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Arrays, RandomString">
+      <created>1568113436090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568113436090</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -328,8 +384,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37053087" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37053087" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -381,7 +437,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="//TODO: Inspect abstract class extned's" />
     <MESSAGE value="Passed: Generics Bounds" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passed: Generics Bounds" />
+    <MESSAGE value="Arrays, RandomString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays, RandomString" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -419,6 +476,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Procedural/MyQuickSort.java</url>
+          <line>19</line>
+          <properties class="Procedural.MyQuickSort" method="quickSort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -581,9 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,19 +660,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/ArraysFill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/ArraysFill.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -636,10 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -661,9 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,7 +718,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Arrays_1/RandomString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="204">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -682,13 +728,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Procedural/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/Procedural/MyQuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/MapGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/CollectionData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
           </folding>
         </state>
       </provider>
