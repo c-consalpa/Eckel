@@ -21,7 +21,7 @@ public class Lists {
         b = a.contains("1"); // Is it in there?
 // Is the entire collection in there?
         b = a.containsAll(testList);
-// Lists allow random access, which is cheap
+// ListFunctionality allow random access, which is cheap
 // for ArrayList, expensive for LinkedList:
         s = a.get(1); // Get (typed) object at location 1
         i = a.indexOf("1"); // Tell index of object
@@ -114,7 +114,7 @@ public class Lists {
         list.add("v");
         list.add("z");
         basicTest(
-                new LinkedList<String>(list));
+                new LinkedList<>(list));
 //        basicTest(
 //                new ArrayList<String>(Countries.names(25)));
 //        Containers in Depth 587

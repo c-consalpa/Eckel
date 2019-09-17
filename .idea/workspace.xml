@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4897941-e4d6-486c-8d45-81836d22b16a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/CollectionData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/MapGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Procedural/MyQuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/ListFunctionality/ListIter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/ListUnmodifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/Queues/PriorityQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/Queues/RandomQueueWithOrdering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/SortedSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/TypesForSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/mSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/mSortedSetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Procedural/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eckel/CompareLists/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eckel/CompareLists/mList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionsInDepth/Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionsInDepth/Lists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompareLists/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionsInDepth/CompareLists/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,38 +27,38 @@
     <session id="1635229968">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.0" value="5" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="4" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="44" />
+          <entry key="java" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="44" />
+          <entry key="JAVA" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10201" />
-          <entry key="txt" value="45" />
+          <entry key="java" value="12081" />
+          <entry key="txt" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10200" />
-          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="JAVA" value="12080" />
+          <entry key="PLAIN_TEXT" value="90" />
           <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
@@ -60,23 +67,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Arrays_1/RandomString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#genRandomString#0;class#RandomString#0" />
-                <element signature="method#generateChar#0;class#RandomString#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Procedural/MyQuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="697">
               <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
             </state>
           </provider>
@@ -85,41 +78,104 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/MapGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="629">
               <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/CollectionData.java">
+        <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="306">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/ListFunctionality/ListIter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/TypesForSets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/SortedSetDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/mSetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/mSortedSetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/Generator.java">
+        <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/Queues/RandomQueueWithOrdering.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="510">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,16 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Containers.java" />
-        <option value="$PROJECT_DIR$/src/CharCount/Main.java" />
-        <option value="$PROJECT_DIR$/src/ArrayShuffler.java" />
-        <option value="$PROJECT_DIR$/src/CompareLists/Main.java" />
-        <option value="$PROJECT_DIR$/src/CollectionsInDepth.java" />
-        <option value="$PROJECT_DIR$/src/CollectionsInDepth/Unsupported.java" />
-        <option value="$PROJECT_DIR$/src/CollectionsInDepth/Containers.java" />
-        <option value="$PROJECT_DIR$/src/CollectionsInDepth/ListFunctionality.java" />
-        <option value="$PROJECT_DIR$/src/CollectionsInDepth/ListIterators.java" />
-        <option value="$PROJECT_DIR$/src/CollectionsInDepth/MyList.java" />
         <option value="$PROJECT_DIR$/src/CollectionsInDepth/Node.java" />
         <option value="$PROJECT_DIR$/src/RTTI/RTTI_1.java" />
         <option value="$PROJECT_DIR$/src/RTTI/RTTI_2.java" />
@@ -198,6 +244,17 @@
         <option value="$PROJECT_DIR$/src/CollectionsInDepth/CollectionsData.java" />
         <option value="$PROJECT_DIR$/src/CollectionsInDepth/CollectionData.java" />
         <option value="$PROJECT_DIR$/src/CollectionsInDepth/Generator.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/Lists.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/ListUnmodifiable.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/Lists/ListIter.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/ListFunctionality/ListIter.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/SetType.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/SortedSetDemo.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/mSet.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/mSetTest.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/mSortedSetTest.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/Queues/PriorityQ.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsInDepth/Queues/RandomQueueWithOrdering.java" />
       </list>
     </option>
   </component>
@@ -215,6 +272,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,16 +291,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CollectionsInDepth" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Eckel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eckel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionsInDepth" type="462c0819:PsiDirectoryNode" />
+              <item name="Queues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eckel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eckel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionsInDepth" type="462c0819:PsiDirectoryNode" />
+              <item name="Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="PriorityQ.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568330514200" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568720832754" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -260,13 +332,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenTest">
-    <configuration name="Arrays_fill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays_1.Arrays_fill" />
+  <component name="RunManager" selected="Application.RandomQueueWithOrdering">
+    <configuration name="RandomQueueWithOrdering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsInDepth.Queues.RandomQueueWithOrdering" />
       <module name="Eckel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays_1.*" />
+          <option name="PATTERN" value="CollectionsInDepth.Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,12 +346,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionsInDepth.GenTest" />
+    <configuration name="SortedSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsInDepth.SetsFunctionality.SortedSetDemo" />
       <module name="Eckel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionsInDepth.*" />
+          <option name="PATTERN" value="CollectionsInDepth.SetsFunctionality.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,12 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Procedural.MyQuickSort" />
+    <configuration name="ToDoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsInDepth.Queues.ToDoList" />
       <module name="Eckel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Procedural.*" />
+          <option name="PATTERN" value="CollectionsInDepth.Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,12 +372,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Procedural.QuickSort" />
+    <configuration name="mSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsInDepth.SetsFunctionality.mSetTest" />
       <module name="Eckel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Procedural.*" />
+          <option name="PATTERN" value="CollectionsInDepth.SetsFunctionality.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,12 +385,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays_1.RandomString" />
+    <configuration name="mSortedSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsInDepth.SetsFunctionality.mSortedSetTest" />
       <module name="Eckel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays_1.*" />
+          <option name="PATTERN" value="CollectionsInDepth.SetsFunctionality.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,19 +399,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Arrays_fill" />
-      <item itemvalue="Application.RandomString" />
-      <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.MyQuickSort" />
-      <item itemvalue="Application.GenTest" />
+      <item itemvalue="Application.SortedSetDemo" />
+      <item itemvalue="Application.mSetTest" />
+      <item itemvalue="Application.mSortedSetTest" />
+      <item itemvalue="Application.ToDoList" />
+      <item itemvalue="Application.RandomQueueWithOrdering" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenTest" />
-        <item itemvalue="Application.MyQuickSort" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.RandomString" />
-        <item itemvalue="Application.Arrays_fill" />
+        <item itemvalue="Application.RandomQueueWithOrdering" />
+        <item itemvalue="Application.ToDoList" />
+        <item itemvalue="Application.mSortedSetTest" />
+        <item itemvalue="Application.mSetTest" />
+        <item itemvalue="Application.SortedSetDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -368,14 +440,28 @@
       <option name="project" value="LOCAL" />
       <updated>1568113436090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Arrays, RandomString">
+      <created>1568330519738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568330519738</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Random Generator; &#10;Start CollectionsIdDepth">
+      <created>1568330549014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568330549014</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,7 +470,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37053087" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21343446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,7 +524,8 @@
     <MESSAGE value="//TODO: Inspect abstract class extned's" />
     <MESSAGE value="Passed: Generics Bounds" />
     <MESSAGE value="Arrays, RandomString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays, RandomString" />
+    <MESSAGE value="Random Generator; &#10;Start CollectionsIdDepth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Random Generator; &#10;Start CollectionsIdDepth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,47 +572,24 @@
           </properties>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/TypesForSets.java</url>
+          <line>38</line>
+          <properties class="CollectionsInDepth.SetsFunctionality.TypesForSets" method="test">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/io/InputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth.java" />
-    <entry file="file://$PROJECT_DIR$/src/Containers.java" />
-    <entry file="file://$PROJECT_DIR$/src/CharCount/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/InstantiationException.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java" />
-    <entry file="file://$PROJECT_DIR$/src/ArrayShuffler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompareLists/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/CompareLists/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/Containers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/Lists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
@@ -716,6 +780,27 @@
     <entry file="file://$PROJECT_DIR$/src/Generics/Adapters/Fill2Test.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/ListUnmodifiable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/CollectionData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/Lists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="43" column="51" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Arrays_1/RandomString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -730,44 +815,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Procedural/MyQuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="697">
           <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/MapGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
+        <state relative-caret-position="629">
           <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/CollectionData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="306">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/ListFunctionality/ListIter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/mSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/SortedSetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/TypesForSets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayShuffler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/Queues/PriorityQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="33" column="45" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="45" />
+          <folding>
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/mSortedSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsInDepth/Queues/RandomQueueWithOrdering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
           </folding>
         </state>
       </provider>
