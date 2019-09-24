@@ -14,6 +14,7 @@ public class RandomQueueWithOrdering {
         while (queue.peek() != null) {
             System.out.println(queue.poll());
         }
+        queue.hashCode();
     }
 
 
