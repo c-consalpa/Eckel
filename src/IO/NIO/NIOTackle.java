@@ -25,8 +25,9 @@ public class NIOTackle {
             FileChannel fc1 = randomAccessFile1.getChannel();
             ByteBuffer bf1 = ByteBuffer.wrap(new byte[] {69});
             fc1.position((int) fc1.size()+ 1000);
-            fc1.write(bf1);
+
             bf1.clear();
+            fc1.write(bf1);
 
             fc1.close();
 //            FileOutputStream fileOutputStream = new FileOutputStream(dst);
