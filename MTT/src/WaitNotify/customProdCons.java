@@ -1,8 +1,6 @@
-package MTT;
+package WaitNotify;
 
-import sun.awt.windows.ThemeReader;
-
-import static MTT.customProdCons.*;
+import static WaitNotify.customProdCons.*;
 
 public class customProdCons {
     static int buffer = 0;
@@ -10,7 +8,7 @@ public class customProdCons {
     public static Object lock = new Object();
     public static void main(String[] args) {
         Producer producer = new Producer();
-        Consumer consumer = new Consumer();
+        Consumer consumer = new Consumer(producer);
 
         new Thread(producer).start();
         new Thread(consumer).start();
@@ -36,14 +34,14 @@ class Producer implements Runnable {
      while (true) {
          for (int i = 0; i < 10; i++) {
              buffer = i;
-             System.out.print(buffer);
+             System.out.println(buffer);
              Thread.sleep(150);
          }
          System.out.println("Data generated. Waiting for cnsumer");
-         synchronized (lock) {
+         synchronized (this) {
              produced = true;
-             lock.notifyAll();
-             lock.wait();
+             notifyAll();
+             wait();
          }
      }
 
@@ -51,13 +49,17 @@ class Producer implements Runnable {
 }
 
 class Consumer implements Runnable {
+    Producer producer;
+    public Consumer(Producer producer) {
+        this.producer = producer;
+    }
 
     @Override
     public void run() {
-        synchronized (lock) {
+        synchronized (producer) {
             while (!produced) {
                 try {
-                    lock.wait();
+                    producer.wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -69,14 +71,14 @@ class Consumer implements Runnable {
                     e.printStackTrace();
                 }
 
-                System.out.print("data detected: ");
-                synchronized (lock) {
+                System.out.println("data detected: ");
+                synchronized (producer) {
                     System.out.println(buffer);
                     produced = !produced;
 
                     try {
-                        lock.notifyAll();
-                        lock.wait();
+                        producer.notifyAll();
+                        producer.wait();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }

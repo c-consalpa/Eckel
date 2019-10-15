@@ -13,24 +13,55 @@ public class RecFSTraversal {
     public static void main(String[] args) {
         File f = new File(IO_VARS.BASE_DIR, "recursive");
 
-        traverseDir(f);
-        System.out.println(res);
+        System.out.println(traverseDir(f));
+
     }
 
+//  Returns directory structure as String
+//    public static String traverseDir(File startDir) {
+//        String result = "";
+//        File[] files = startDir.listFiles();
+//        if (files.length > 0) {
+//            String filesInDirectory = "";
+//            for (int i = 0; i < files.length; i++) {
+//                if (files[i].isDirectory()) {
+//                    result += traverseDir(files[i]);
+//                } else {
+//                    filesInDirectory += files[i].getName();
+//                    filesInDirectory += ", ";
+//                }
+//            }
+//
+//            return result + filesInDirectory;
+//        } else {
+//            return "* ";
+//        }
+//
+//    }
 
-    public static List<String> traverseDir(File startDir) {
+//    Returns File[]:
+public static List<File> traverseDir(File startDir) {
+    List<File> result = new ArrayList<>();
+    File[] files = startDir.listFiles();
+        if (files.length == 0) {
+//            break the loop if directory is empty
+            return null;
+        }
 
-        File[] dirs = startDir.listFiles();
-        if (dirs.length > 0) {
-            for (int i = 0; i < dirs.length; i++) {
-                if(dirs[i].isFile()) res.add(dirs[i].getName());
-                if (dirs[i].isDirectory()) {
-                    traverseDir(dirs[i]);
-                }
+        List<File> filesInDirectory = new ArrayList<>();
+        for (int i = 0; i < files.length; i++) {
+            if (files[i].isDirectory()) {
+                List<File> tmp = traverseDir(files[i]);
+                if (tmp != null) result.addAll(tmp);
+            } else {
+                filesInDirectory.add(files[i]);
             }
         }
-        return null;
-    }
+//        harvesitng files accumulated in *for* loop:
+        result.addAll(filesInDirectory);
+        return result;
+}
+
 }
 
 

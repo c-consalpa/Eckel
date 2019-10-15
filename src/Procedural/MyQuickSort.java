@@ -66,8 +66,8 @@ public class MyQuickSort {
         int[] input = {1, 3 , 5, 2, 4, 0};
         sorter.sort(input);
         for(int i:input){
-            System.out.print(i);
-            System.out.print(" ");
+            System.out.println(i);
+            System.out.println(" ");
         }
     }
 }

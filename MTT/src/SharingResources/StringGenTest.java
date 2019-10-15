@@ -10,9 +10,9 @@ class StringGen implements Runnable{
     }
 
     private synchronized void showOutput() {
-        System.out.print(Thread.currentThread() + " : ");
+        System.out.println(Thread.currentThread() + " : ");
         for (int j = 0; j < 10; j++) {
-            System.out.print(j);
+            System.out.println(j);
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {

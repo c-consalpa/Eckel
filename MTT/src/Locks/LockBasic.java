@@ -24,8 +24,8 @@ class LockWorker implements Runnable {
             lock.lock();
             for (int i = 0; i < 100; i++) {
                 Thread.sleep(100);
-                System.out.print(Thread.currentThread());
-                System.out.print(" :op1;");
+                System.out.println(Thread.currentThread());
+                System.out.println(" :op1;");
                 System.out.println("op2;");
             }
         } catch (InterruptedException e) {

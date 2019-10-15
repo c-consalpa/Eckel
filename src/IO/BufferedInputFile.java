@@ -17,6 +17,6 @@ public class BufferedInputFile {
         return sb.toString();
     }
     public static void main(String[] args) throws IOException {
-        System.out.print(read("D:\\java\\Eckel\\IO_Sandbox\\BufferedInputFile.java"));
+        System.out.println(read("D:\\java\\Eckel\\IO_Sandbox\\BufferedInputFile.java"));
     }
 }

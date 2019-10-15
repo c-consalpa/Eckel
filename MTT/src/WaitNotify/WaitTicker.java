@@ -1,8 +1,8 @@
-package MTT;
+package WaitNotify;
 
 import java.util.Random;
 
-import static MTT.WaitTicker.counter;
+import static WaitNotify.WaitTicker.counter;
 
 public class WaitTicker {
     static int counter = 2;

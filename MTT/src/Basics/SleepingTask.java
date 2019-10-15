@@ -7,7 +7,7 @@ public class SleepingTask extends LiftOff {
     public void run() {
         try {
             while(countDown-- > 0) {
-                System.out.print(status());
+                System.out.println(status());
 // Old-style:
  Thread.sleep(500);
 // Java SE5/6-style:

@@ -1,7 +1,7 @@
-package MTT;
+package WaitNotify;
 
-import static MTT.TrueFalseTicker.lock;
-import static MTT.TrueFalseTicker.swtch;
+import static WaitNotify.TrueFalseTicker.lock;
+import static WaitNotify.TrueFalseTicker.swtch;
 
 public class TrueFalseTicker {
     public static boolean swtch = false;

@@ -25,6 +25,6 @@ public class GetChannel {
         fc.read(buff);
         buff.flip();
         while(buff.hasRemaining())
-            System.out.print((char)buff.get());
+            System.out.println((char)buff.get());
     }
 }

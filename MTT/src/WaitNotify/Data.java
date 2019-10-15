@@ -1,4 +1,4 @@
-package MTT;
+package WaitNotify;
 
 import sun.rmi.runtime.Log;
 

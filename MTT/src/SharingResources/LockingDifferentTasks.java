@@ -30,7 +30,7 @@ Locker locker;
 
 
             for (int i = 0; i < 10; i++) {
-                System.out.print("x");
+                System.out.println("x");
                 try {
                     Thread.sleep(300);
                 } catch (InterruptedException e) {
@@ -52,7 +52,7 @@ class WorkerB implements Runnable{
     public void run() {
         synchronized (this.locker) {
             for (int i = 50; i < 60; i++) {
-                System.out.print("X");
+                System.out.println("X");
                 try {
                     Thread.sleep(300);
                 } catch (InterruptedException e) {
