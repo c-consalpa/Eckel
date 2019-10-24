@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4897941-e4d6-486c-8d45-81836d22b16a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MTT/src/BlockingQueues/PipedIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTT/src/BlockingQueues/PipedWuthBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTT/src/BlockingQueues/ToastOMatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/CountDLatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/HorseRace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/Pool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/PriorityBlockingQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/ScheduledExec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTT/src/Simulation/BankTellerSimulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTT/src/Simulation/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Procedural/BasicRec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Procedural/StringMultiOccurrence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/GUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/Button1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/SwingConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Procedural/StringFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MTT/src/Basics/LiftOff.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Basics/LiftOff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MTT/src/Basics/SleepingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Basics/SleepingTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MTT/src/Basics/mTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Basics/mTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MTT/src/Locks/LockBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Locks/LockBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MTT/src/SharingResources/LockingDifferentTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/SharingResources/LockingDifferentTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MTT/src/SharingResources/StringGenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/SharingResources/StringGenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO/BufferedInputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/BufferedInputFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO/FileClass/RecFSTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/FileClass/RecFSTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO/NIO/GetChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/NIO/GetChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MTT/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/WaitNotify/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MTT/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/WaitNotify/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MTT/TrueFalseTicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/WaitNotify/TrueFalseTicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MTT/WaitTicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/WaitNotify/WaitTicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MTT/customProdCons.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/WaitNotify/customProdCons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Procedural/MyQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Procedural/MyQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Procedural/StringMultiOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Procedural/StringMultiOccurrence.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,49 +27,49 @@
     <session id="1635229968">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="44" />
-          <entry key="project.open.time.0" value="11" />
+          <entry key="project.closed" value="48" />
+          <entry key="project.open.time.0" value="13" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="8" />
-          <entry key="project.open.time.5" value="18" />
-          <entry key="project.open.time.6" value="7" />
+          <entry key="project.open.time.5" value="19" />
+          <entry key="project.open.time.6" value="8" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="53" />
+          <entry key="project.opened" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bigFile" value="3" />
           <entry key="dat" value="1" />
-          <entry key="java" value="173" />
+          <entry key="java" value="178" />
           <entry key="out" value="1" />
           <entry key="pw" value="3" />
           <entry key="searchForString" value="2" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
           <entry key="xomData" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="173" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="JAVA" value="178" />
+          <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="28307" />
+          <entry key="java" value="30240" />
           <entry key="searchForString" value="53" />
-          <entry key="txt" value="215" />
+          <entry key="txt" value="284" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28305" />
-          <entry key="PLAIN_TEXT" value="268" />
+          <entry key="JAVA" value="30238" />
+          <entry key="PLAIN_TEXT" value="337" />
           <entry key="RegExp" value="2" />
         </counts>
       </usages-collector>
@@ -98,28 +78,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IO/NIO/StringSearch.java">
+        <entry file="file://$PROJECT_DIR$/GUI/src/SwingConsole.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Procedural/StringMultiOccurrence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="51">
+              <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IO/FileClass/RecFSTraversal.java">
+        <entry file="file://$PROJECT_DIR$/GUI/src/Button1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="136">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GUI/src/Actions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/JFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9401">
+              <caret line="605" column="25" selection-start-line="605" selection-start-column="16" selection-end-line="605" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -144,6 +139,9 @@
       <find>WorkerA</find>
       <find>print(</find>
       <find>System.out.System.out.println</find>
+      <find>ln</find>
+      <find>setLa</find>
+      <find>setLayout</find>
     </findStrings>
     <replaceStrings>
       <replace>System.out.println(</replace>
@@ -156,14 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MTT/src/Basics/Test.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/DaemonThreadPoolExecutor.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/DaemonThreadFactory.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/Joining.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/ResponsiveConsole.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/MTTExceptions.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/MTTExceptionis/UncaughtExcHandlerUsage.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/SharingResources/StringGen.java" />
         <option value="$PROJECT_DIR$/MTT/src/Basics/SharingResources/StringGenTest.java" />
         <option value="$PROJECT_DIR$/MTT/src/Basics/SharingResources/Pair.java" />
         <option value="$PROJECT_DIR$/MTT/src/Basics/SharingResources/CriticalSection.java" />
@@ -206,7 +196,15 @@
         <option value="$PROJECT_DIR$/MTT/src/Simulation/Restaurant.java" />
         <option value="$PROJECT_DIR$/src/Procedural/BasicRec.java" />
         <option value="$PROJECT_DIR$/src/IO/FileClass/RecFSTraversal.java" />
+        <option value="$PROJECT_DIR$/data.txt" />
         <option value="$PROJECT_DIR$/src/Procedural/StringMultiOccurrence.java" />
+        <option value="$PROJECT_DIR$/src/Procedural/StringFormat.java" />
+        <option value="$PROJECT_DIR$/GUI/src/HelloSwing.java" />
+        <option value="$PROJECT_DIR$/GUI/src/HelloLabel.java" />
+        <option value="$PROJECT_DIR$/GUI/src/SwingConsole.java" />
+        <option value="$PROJECT_DIR$/GUI/src/й.java" />
+        <option value="$PROJECT_DIR$/GUI/src/Button1.java" />
+        <option value="$PROJECT_DIR$/GUI/src/Actions.java" />
       </list>
     </option>
   </component>
@@ -230,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -241,19 +240,13 @@
             <path>
               <item name="Eckel" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Eckel" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eckel" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="IO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eckel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Procedural" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Eckel" type="b2602c69:ProjectViewProjectNode" />
@@ -263,12 +256,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571177283208" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571871301850" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Golovach" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -291,61 +283,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringMultiOccurrence">
-    <configuration name="BankTellerSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Simulation.BankTellerSimulation" />
-      <module name="MTT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Simulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Actions">
+    <configuration name="Actions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Actions" />
+      <module name="GUI" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Procedural.BasicRec" />
-      <module name="Eckel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Procedural.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Button1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Button1" />
+      <module name="GUI" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConcurrentUtilities.CountDLatch" />
-      <module name="MTT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ConcurrentUtilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="HelloLabel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloLabel" />
+      <module name="GUI" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecFSTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO.FileClass.RecFSTraversal" />
-      <module name="Eckel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IO.FileClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="HelloSwing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloSwing" />
+      <module name="GUI" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMultiOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Procedural.StringMultiOccurrence" />
+    <configuration name="StringFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Procedural.StringFormat" />
       <module name="Eckel" />
       <extension name="coverage">
         <pattern>
@@ -358,19 +326,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountDLatch" />
-      <item itemvalue="Application.BankTellerSimulation" />
-      <item itemvalue="Application.RecFSTraversal" />
-      <item itemvalue="Application.BasicRec" />
-      <item itemvalue="Application.StringMultiOccurrence" />
+      <item itemvalue="Application.StringFormat" />
+      <item itemvalue="Application.HelloSwing" />
+      <item itemvalue="Application.HelloLabel" />
+      <item itemvalue="Application.Button1" />
+      <item itemvalue="Application.Actions" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringMultiOccurrence" />
-        <item itemvalue="Application.RecFSTraversal" />
-        <item itemvalue="Application.BasicRec" />
-        <item itemvalue="Application.CountDLatch" />
-        <item itemvalue="Application.BankTellerSimulation" />
+        <item itemvalue="Application.Actions" />
+        <item itemvalue="Application.Button1" />
+        <item itemvalue="Application.HelloLabel" />
+        <item itemvalue="Application.HelloSwing" />
+        <item itemvalue="Application.StringFormat" />
       </list>
     </recent_temporary>
   </component>
@@ -441,14 +409,20 @@
       <option name="project" value="LOCAL" />
       <updated>1570610515478</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="MTT: COmplete;">
+      <created>1571177621520</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571177621521</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17697228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -519,7 +493,8 @@
     <MESSAGE value="Collections in Depth: List, Set, Queue" />
     <MESSAGE value="NIO: ByteBufferUsage;&#10;//TODO: NIO-based file copy;" />
     <MESSAGE value="WaitNotify: WaxOMatic" />
-    <option name="LAST_COMMIT_MESSAGE" value="WaitNotify: WaxOMatic" />
+    <MESSAGE value="MTT: COmplete;" />
+    <option name="LAST_COMMIT_MESSAGE" value="MTT: COmplete;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -559,6 +534,12 @@
           <line>10</line>
           <properties />
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Procedural/StringFormat.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/CollectionsInDepth/Unsupported.java</url>
@@ -624,59 +605,15 @@
           </properties>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Procedural/StringMultiOccurrence.java</url>
-          <line>9</line>
-          <properties class="Procedural.StringMultiOccurrence" method="find">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="sbuf" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Annotations/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Annotations/UseCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Annotations/TestAnnotations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Basics/mExecutors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Basics/mCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MTT/src/Basics/SleepingTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -970,6 +907,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/IO/FileClass/RecFSTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IO/NIO/StringSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -977,17 +921,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/FileClass/RecFSTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/Procedural/StringFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Procedural/StringMultiOccurrence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="816">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/src/SwingConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/src/Button1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9401">
+          <caret line="605" column="25" selection-start-line="605" selection-start-column="16" selection-end-line="605" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/src/Actions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
