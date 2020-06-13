@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4897941-e4d6-486c-8d45-81836d22b16a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GUI/GUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/src/Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/src/Button1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/src/SwingConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Procedural/StringFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MTT/src/SharingResources/SyncObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MTT/src/SharingResources/ThreadLocalVariableHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Procedural/StringMultiOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Procedural/StringMultiOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/Basics/ResponsiveConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Basics/ResponsiveConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/Basics/mCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Basics/mCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/Basics/mTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Basics/mTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/Interrupts/Interrupting.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Interrupts/Interrupting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/Locks/LockBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Locks/LockBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/SharingResources/ImproperState.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/SharingResources/ImproperState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/SharingResources/LockingDifferentTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/SharingResources/LockingDifferentTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/SharingResources/StringGenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/SharingResources/StringGenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/WaitNotify/WaxOMatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/WaitNotify/WaxOMatic.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,104 +25,6 @@
     <SUITE FILE_PATH="coverage/Eckel$SlowSetDemo.ic" NAME="SlowSetDemo Coverage Results" MODIFIED="1568798552272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>CollectionsInDepth.SetsFunctionality.*</FILTER>
     </SUITE>
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1635229968">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="48" />
-          <entry key="project.open.time.0" value="13" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.4" value="8" />
-          <entry key="project.open.time.5" value="19" />
-          <entry key="project.open.time.6" value="8" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="58" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="bigFile" value="3" />
-          <entry key="dat" value="1" />
-          <entry key="java" value="178" />
-          <entry key="out" value="1" />
-          <entry key="pw" value="3" />
-          <entry key="searchForString" value="2" />
-          <entry key="txt" value="2" />
-          <entry key="xomData" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="178" />
-          <entry key="PLAIN_TEXT" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="30240" />
-          <entry key="searchForString" value="53" />
-          <entry key="txt" value="284" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="30238" />
-          <entry key="PLAIN_TEXT" value="337" />
-          <entry key="RegExp" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/src/SwingConsole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/src/Button1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GUI/src/Actions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/JFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9401">
-              <caret line="605" column="25" selection-start-line="605" selection-start-column="16" selection-end-line="605" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,117 +56,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/MTT/src/Basics/SharingResources/StringGenTest.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/SharingResources/Pair.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/SharingResources/CriticalSection.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/Locks/LockBasic.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/SharingResources/ImproperState.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/SharingResources/SyncOnObject.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/SharingResources/OrnamentalGarden.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/Interrupts/Basic.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Interrupts/Basic.java" />
-        <option value="$PROJECT_DIR$/MTT/src/mTask.java" />
-        <option value="$PROJECT_DIR$/MTT/src/SharingResources/SyncOnObject.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Interrupts/Interrupting.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Interrupts/CustomInterrupt.java" />
-        <option value="$PROJECT_DIR$/MTT/src/WaitNotify/WaxoMatic.java" />
-        <option value="$PROJECT_DIR$/MTT/src/WaitNotify/WaxOMatic.java" />
-        <option value="$PROJECT_DIR$/MTT/src/WaitNotify/EX_21.java" />
-        <option value="$PROJECT_DIR$/MTT/src/WaitNotify/EX_22.java" />
-        <option value="$PROJECT_DIR$/MTT/src/BlockingQueues/Toast.java" />
-        <option value="$PROJECT_DIR$/MTT/src/BlockingQueues/ToastOMatic.java" />
-        <option value="$PROJECT_DIR$/MTT/src/SharingResources/ImproperState.java" />
-        <option value="$PROJECT_DIR$/MTT/src/SharingResources/StringGenTest.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/mTask.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Locks/LockBasic.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Basics/LiftOff.java" />
-        <option value="$PROJECT_DIR$/MTT/src/WaitNotify/customProdCons.java" />
-        <option value="$PROJECT_DIR$/MTT/src/SharingResources/LockingDifferentTasks.java" />
-        <option value="$PROJECT_DIR$/MTT/src/BlockingQueues/PipedIO.java" />
-        <option value="$PROJECT_DIR$/MTT/src/BlockingQueues/PipedWithBlockingQueue.java" />
-        <option value="$PROJECT_DIR$/MTT/src/BlockingQueues/PipedWuthBlockingQueue.java" />
-        <option value="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/CountDLatch.java" />
-        <option value="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/CyclicBarrier.java" />
-        <option value="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/HorseRace.java" />
-        <option value="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/Prior.java" />
-        <option value="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/PriorityBlockingQueueDemo.java" />
-        <option value="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/ScheduledExec.java" />
-        <option value="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/Semaphore.java" />
-        <option value="$PROJECT_DIR$/MTT/src/ConcurrentUtilities/Pool.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Simulation/BankTeller.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Simulation/BankTellerSimulation.java" />
-        <option value="$PROJECT_DIR$/MTT/src/Simulation/Restaurant.java" />
-        <option value="$PROJECT_DIR$/src/Procedural/BasicRec.java" />
-        <option value="$PROJECT_DIR$/src/IO/FileClass/RecFSTraversal.java" />
-        <option value="$PROJECT_DIR$/data.txt" />
-        <option value="$PROJECT_DIR$/src/Procedural/StringMultiOccurrence.java" />
-        <option value="$PROJECT_DIR$/src/Procedural/StringFormat.java" />
-        <option value="$PROJECT_DIR$/GUI/src/HelloSwing.java" />
-        <option value="$PROJECT_DIR$/GUI/src/HelloLabel.java" />
-        <option value="$PROJECT_DIR$/GUI/src/SwingConsole.java" />
-        <option value="$PROJECT_DIR$/GUI/src/й.java" />
-        <option value="$PROJECT_DIR$/GUI/src/Button1.java" />
-        <option value="$PROJECT_DIR$/GUI/src/Actions.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1d9EItwnSpvc2YQk1fNdQHfDnoc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Eckel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eckel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eckel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eckel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eckel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571871301850" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Golovach" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SMScanner" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -283,41 +91,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Actions">
-    <configuration name="Actions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Actions" />
-      <module name="GUI" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Button1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Button1" />
-      <module name="GUI" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloLabel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloLabel" />
-      <module name="GUI" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloSwing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloSwing" />
-      <module name="GUI" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Procedural.StringFormat" />
-      <module name="Eckel" />
+  <component name="RunManager" selected="Application.WaxOMatic">
+    <configuration name="CustomInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interrupts.CustomInterrupt" />
+      <module name="MTT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Procedural.*" />
+          <option name="PATTERN" value="Interrupts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Interrupting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interrupts.Interrupting" />
+      <module name="MTT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interrupts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockingDifferentTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SharingResources.LockingDifferentTasks" />
+      <module name="MTT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SharingResources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringGenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SharingResources.StringGenTest" />
+      <module name="MTT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SharingResources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaxOMatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WaitNotify.WaxOMatic" />
+      <module name="MTT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WaitNotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,19 +158,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringFormat" />
-      <item itemvalue="Application.HelloSwing" />
-      <item itemvalue="Application.HelloLabel" />
-      <item itemvalue="Application.Button1" />
-      <item itemvalue="Application.Actions" />
+      <item itemvalue="Application.LockingDifferentTasks" />
+      <item itemvalue="Application.Interrupting" />
+      <item itemvalue="Application.CustomInterrupt" />
+      <item itemvalue="Application.StringGenTest" />
+      <item itemvalue="Application.WaxOMatic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Actions" />
-        <item itemvalue="Application.Button1" />
-        <item itemvalue="Application.HelloLabel" />
-        <item itemvalue="Application.HelloSwing" />
-        <item itemvalue="Application.StringFormat" />
+        <item itemvalue="Application.WaxOMatic" />
+        <item itemvalue="Application.StringGenTest" />
+        <item itemvalue="Application.CustomInterrupt" />
+        <item itemvalue="Application.Interrupting" />
+        <item itemvalue="Application.LockingDifferentTasks" />
       </list>
     </recent_temporary>
   </component>
@@ -352,6 +184,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560895568857</updated>
+      <workItem from="1591828833725" duration="600000" />
+      <workItem from="1591829485010" duration="1795000" />
+      <workItem from="1591831377234" duration="1782000" />
+      <workItem from="1591833184495" duration="1765000" />
+      <workItem from="1591864782287" duration="1495000" />
+      <workItem from="1591870637678" duration="993000" />
+      <workItem from="1591872351927" duration="10403000" />
     </task>
     <task id="LOCAL-00001" summary="Passed: Generics Bounds">
       <created>1567772676631</created>
@@ -419,71 +258,21 @@
     <option name="localTasksCounter" value="10" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24918744" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39761648" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719395" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32936078" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32995737" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24918744" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39761648" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719395" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32936078" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32995737" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
-    </layout-to-restore>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="//TODO: Inspect abstract class extned's" />
@@ -496,49 +285,63 @@
     <MESSAGE value="MTT: COmplete;" />
     <option name="LAST_COMMIT_MESSAGE" value="MTT: COmplete;" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1591828839603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591828839603" />
+    <state width="1877" height="206" key="GridCell.Tab.0.bottom" timestamp="1591865342016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591834139559" />
+    <state width="1877" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1080@0.0.1920.1040" timestamp="1591865342016" />
+    <state width="1877" height="206" key="GridCell.Tab.0.center" timestamp="1591865342016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591834139558" />
+    <state width="1877" height="206" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1080@0.0.1920.1040" timestamp="1591865342016" />
+    <state width="1877" height="206" key="GridCell.Tab.0.left" timestamp="1591865342016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591834139558" />
+    <state width="1877" height="206" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1080@0.0.1920.1040" timestamp="1591865342016" />
+    <state width="1877" height="206" key="GridCell.Tab.0.right" timestamp="1591865342016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591834139558" />
+    <state width="1877" height="206" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1080@0.0.1920.1040" timestamp="1591865342016" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CharCount/Main.java</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ArrayShuffler.java</url>
           <line>17</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CollectionsInDepth/ListIterators.java</url>
           <line>9</line>
-          <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CollectionsInDepth/SetsFunctionality/SlowSetDemo.java</url>
           <line>18</line>
-          <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IO/NIO/DataTypeConversion.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MTT/src/Basics/mCallable.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Procedural/StringFormat.java</url>
           <line>15</line>
-          <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
@@ -582,14 +385,6 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/MTT/src/Locks/LockBasic.java</url>
-          <line>22</line>
-          <properties class="Locks.LockWorker">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/IO/FileClass/RecFSTraversal.java</url>
           <line>20</line>
           <properties class="IO.FileClass.RecFSTraversal">
@@ -612,456 +407,5 @@
         <watch expression="sbuf" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MTT/src/Basics/SleepingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Basics/Daemons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Basics/DaemonThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="82" selection-start-line="38" selection-start-column="82" selection-end-line="38" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Basics/ResponsiveConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Basics/ExceptionThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Basics/DaemonThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Basics/CachedThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/MTTExceptionis/UncaughtExcHandlerUsage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Basics/Joining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/SharingResources/CriticalSection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/SharingResources/SyncOnObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/SharingResources/OrnamentalGarden.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Interrupts/Interrupting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-578">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="800" column="6" lean-forward="true" selection-start-line="800" selection-start-column="6" selection-end-line="800" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Interrupts/CustomInterrupt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/WaitNotify/WaxOMatic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/WaitNotify/EX_22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/WaitNotify/EX_21.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/WaitNotify/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/WaitNotify/Restaurant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/BlockingQueues/ToastOMatic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/SharingResources/ImproperState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/SharingResources/StringGenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Basics/mTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Locks/LockBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Basics/LiftOff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/WaitNotify/customProdCons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/SharingResources/LockingDifferentTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/WaitNotify/TrueFalseTicker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/BlockingQueues/PipedIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="41" selection-end-line="54" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/BlockingQueues/PipedWuthBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="397" column="13" selection-start-line="397" selection-start-column="13" selection-end-line="397" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/ConcurrentUtilities/CountDLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="58" column="49" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/ConcurrentUtilities/HorseRace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/ConcurrentUtilities/PriorityBlockingQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/ConcurrentUtilities/ScheduledExec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/ConcurrentUtilities/Pool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Simulation/BankTellerSimulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="142" column="23" lean-forward="true" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTT/src/Simulation/Restaurant.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/IO_VARS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Procedural/BasicRec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/FileClass/RecFSTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/NIO/StringSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Procedural/StringFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Procedural/StringMultiOccurrence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/src/SwingConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/src/Button1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/JFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9401">
-          <caret line="605" column="25" selection-start-line="605" selection-start-column="16" selection-end-line="605" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/src/Actions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>MTT</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>xom-1.3.2</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

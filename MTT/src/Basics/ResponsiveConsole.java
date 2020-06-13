@@ -14,19 +14,22 @@ public class ResponsiveConsole {
 class Reader extends Thread {
 //    TODO Fix input reset on ui heartbeat tick;
     public Reader() {
-        super(() -> {
-            Scanner scanner = new Scanner(System.in);
-            while(true) {
-                String str = scanner.nextLine();
-                System.out.println("calculating....");
-                try {
-                    Thread.sleep(2000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+        super(new Runnable() {
+            @Override
+            public void run() {
+                Scanner scanner = new Scanner(System.in);
+                while (true) {
+                    String str = scanner.nextLine();
+                    System.out.println("calculating....");
+                    try {
+                        Thread.sleep(500);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println("result:" + str);
                 }
-                System.out.println("result:" + str);
-            }
 
+            }
         });
     }
 }

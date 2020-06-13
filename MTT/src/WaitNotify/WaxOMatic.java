@@ -45,8 +45,8 @@ class WaxOn implements Runnable {
     }
 }
 class WaxOff implements Runnable {
-
     private Car car;
+
     public WaxOff(Car c) { car = c; }
     public void run() {
         try {

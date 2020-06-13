@@ -15,22 +15,13 @@ public class ImproperState {
 class ImproperStateWorker implements Runnable {
     AtomicInteger aInt = new AtomicInteger();
 
-
-    private int val = 0;
     @Override
     public void run() {
-
-        //WHere are missing ticks?
-        for (int i = 0; i < 1000; i++) {
+        //Where are the missing ticks?
+        for (int i = 0; i < 100000; i++) {
             aInt.getAndIncrement();
-                    Thread.yield();
-            aInt.getAndIncrement();
+            Thread.yield();
         }
-        showDataState();
-    }
-
-    public void showDataState() {
-        System.out.print(Thread.currentThread() + " ; ");
-        System.out.println(aInt.get());
+        System.out.println(Thread.currentThread() + " : work done: " + aInt.get());
     }
 }

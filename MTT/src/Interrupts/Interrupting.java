@@ -5,8 +5,9 @@ import java.io.*;
 
 class SleepBlocked implements Runnable {
     public void run() {
+        System.out.println("task running");
         try {
-            TimeUnit.SECONDS.sleep(100);
+            TimeUnit.MILLISECONDS.sleep(500);
         } catch(InterruptedException e) {
             System.out.println("InterruptedException");
         }
@@ -53,7 +54,7 @@ public class Interrupting {
             Executors.newCachedThreadPool();
     static void test(Runnable r) throws InterruptedException{
         Future<?> f = exec.submit(r);
-        TimeUnit.MILLISECONDS.sleep(100);
+        TimeUnit.MILLISECONDS.sleep(1000);
         System.out.println("Interrupting " + r.getClass().getName());
         f.cancel(true); // Interrupts if running
         System.out.println("Interrupt sent to " + r.getClass().getName());

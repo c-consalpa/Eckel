@@ -9,17 +9,21 @@ class StringGen implements Runnable{
         this.i = i;
     }
 
-    private synchronized void showOutput() {
-        System.out.println(Thread.currentThread() + " : ");
-        for (int j = 0; j < 10; j++) {
-            System.out.println(j);
-            try {
-                Thread.sleep(500);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+    private void showOutput() {
+
+        synchronized (Sync.Sync) {
+            System.out.println(Thread.currentThread() + " : ");
+            for (int j = 0; j < 10; j++) {
+                System.out.println(i + " : " + j);
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         }
-        System.out.println();
+
+
     }
 
     @Override
@@ -28,15 +32,18 @@ class StringGen implements Runnable{
     }
 }
 
+// Mock class with a static field to sync on. bad practice;
+class Sync {
+    public static Object Sync = new Object();
+}
 public class StringGenTest {
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newCachedThreadPool();
-        StringGen str =  new StringGen(5);
+        StringGen str = new StringGen(5);
 
         for (int i = 0; i < 5; i++) {
-            Thread thread = new Thread(str);
-            thread.start();
+            executorService.execute(new StringGen(i));
         }
-    }
 
+    }
 }

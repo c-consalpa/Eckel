@@ -30,7 +30,7 @@ Locker locker;
 
 
             for (int i = 0; i < 10; i++) {
-                System.out.println("x");
+                System.out.println(Thread.currentThread());
                 try {
                     Thread.sleep(300);
                 } catch (InterruptedException e) {
