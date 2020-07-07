@@ -65,6 +65,7 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ConcurrentUtilities.*" />
+
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +73,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="ScheduledExec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConcurrentUtilities.ScheduledExec" />
       <module name="MTT" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ConcurrentUtilities.*" />
+
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,6 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="ToastOMatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConcurrentUtilities.ToastOMatic" />
       <module name="MTT" />
@@ -105,6 +109,7 @@
         <item itemvalue="Application.ToastOMatic" />
         <item itemvalue="Application.HorseRace" />
         <item itemvalue="Application.CountDLatch" />
+
       </list>
     </recent_temporary>
   </component>
@@ -113,6 +118,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+
       <changelist id="93ab7ca3-3a0d-47c5-be6e-ceda7f4d292b" name="Default Changelist" comment="" />
       <created>1594121482205</created>
       <option name="number" value="Default" />
@@ -130,6 +136,7 @@
       <map>
         <entry key="MAIN">
           <value>
+
             <State />
           </value>
         </entry>
