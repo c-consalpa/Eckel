@@ -43,22 +43,23 @@ public class HorseRace {
     private CyclicBarrier barrier;
     public HorseRace(int nHorses, final int pause) {
         barrier = new CyclicBarrier(nHorses, new Runnable() {
+            @Override
             public void run() {
                 StringBuilder s = new StringBuilder();
-                for(int i = 0; i < FINISH_LINE; i++)
+                for (int i = 0; i < FINISH_LINE; i++)
                     s.append("="); // The fence on the racetrack
                 System.out.println(s);
-                for(Horse horse : horses)
+                for (Horse horse : horses)
                     System.out.println(horse.tracks());
-                for(Horse horse : horses)
-                    if(horse.getStrides() >= FINISH_LINE) {
+                for (Horse horse : horses)
+                    if (horse.getStrides() >= FINISH_LINE) {
                         System.out.println(horse + "won!");
                         exec.shutdownNow();
                         return;
                     }
                 try {
                     TimeUnit.MILLISECONDS.sleep(pause);
-                } catch(InterruptedException e) {
+                } catch (InterruptedException e) {
                     System.out.println("barrier-action sleep interrupted");
                 }
             }
@@ -82,6 +83,6 @@ public class HorseRace {
         }
         new HorseRace(nHorses, pause);
 
-        CyclicBarrier b = new CyclicBarrier(1);
+
     }
 }
