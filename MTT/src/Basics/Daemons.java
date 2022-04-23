@@ -2,6 +2,7 @@ package Basics;
 
 public class Daemons {
     public static void main(String[] args) {
+
         for (int i = 0; i < 5; i++) {
             Thread t1 = new Thread(new DaemonWorker(i));
             t1.setDaemon(true);

@@ -47,7 +47,7 @@ class UIOutputSimulation implements Runnable {
     public void run() {
         int i = 0;
         while (true) {
-            System.out.println(i++);
+//            System.out.println(i++);
 
             try {
                 Thread.sleep(1000);
@@ -56,4 +56,5 @@ class UIOutputSimulation implements Runnable {
             }
         }
     }
+
 }

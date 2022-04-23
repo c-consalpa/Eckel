@@ -6,6 +6,7 @@ public class customProdCons {
     static int buffer = 0;
     public static boolean produced = false;
     public static Object lock = new Object();
+
     public static void main(String[] args) {
         Producer producer = new Producer();
         Consumer consumer = new Consumer(producer);
@@ -31,7 +32,6 @@ class Producer implements Runnable {
     }
 
     private void produce() throws InterruptedException {
-     while (true) {
          for (int i = 0; i < 10; i++) {
              buffer = i;
              System.out.println(buffer);
@@ -43,8 +43,6 @@ class Producer implements Runnable {
              notifyAll();
              wait();
          }
-     }
-
     }
 }
 
@@ -65,13 +63,14 @@ class Consumer implements Runnable {
                 }
             }
             while (true) {
+                System.out.println("data detected: " + buffer) ;
+
                 try {
                     Thread.sleep(3000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
-                System.out.println("data detected: ");
+                System.out.println("ping producer for more data");
                 synchronized (producer) {
                     System.out.println(buffer);
                     produced = !produced;

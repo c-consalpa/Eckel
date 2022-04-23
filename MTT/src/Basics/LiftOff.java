@@ -14,6 +14,11 @@ public class LiftOff implements Runnable {
     public void run() {
         while(countDown-- > 0) {
             System.out.println(status());
+            try {
+                Thread.sleep(300);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             Thread.yield();
         }
     }

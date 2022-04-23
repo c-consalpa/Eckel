@@ -1,6 +1,6 @@
 package WaitNotify;
 
-import sun.awt.windows.ThemeReader;
+
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -27,6 +27,7 @@ class WorkerA implements Runnable {
             try {
                 wait();
             } catch (InterruptedException e) {
+                System.out.println("ex a");
                 e.printStackTrace();
             }
             System.out.println("message");
@@ -47,8 +48,10 @@ class WokerB implements Runnable {
     public void run() {
         synchronized (refA) {
         try {
+            System.out.println("Work b");
             Thread.sleep(1000);
         } catch (InterruptedException e) {
+            System.out.println("ex b");
             e.printStackTrace();
         }
          refA.notifyAll();

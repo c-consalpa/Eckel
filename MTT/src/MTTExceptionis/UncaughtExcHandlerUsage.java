@@ -29,7 +29,7 @@ class HandlerThreadFactory implements ThreadFactory {
 }
 public class UncaughtExcHandlerUsage {
     public static void main(String[] args) {
-        ExecutorService exec = Executors.newCachedThreadPool(new HandlerThreadFactory());
+        ExecutorService exec = Executors.newFixedThreadPool(1, new HandlerThreadFactory());
         exec.execute(new ExceptionTask());
     }
 }

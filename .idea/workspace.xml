@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27bd4586-d199-4c2b-8e92-8de24fee1c7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/xom_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/xom_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MTT/src/WaitNotify/SynchronizeOnObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/Basics/Daemons.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Basics/Daemons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/Basics/LiftOff.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Basics/LiftOff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/Basics/ResponsiveConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Basics/ResponsiveConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/Basics/mCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/Basics/mCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/MTTExceptionis/UncaughtExcHandlerUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/MTTExceptionis/UncaughtExcHandlerUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/SharingResources/LockingDifferentTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/SharingResources/LockingDifferentTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/WaitNotify/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/WaitNotify/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/WaitNotify/EX_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/WaitNotify/EX_21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/WaitNotify/EX_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/WaitNotify/EX_22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/WaitNotify/WaitTicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/WaitNotify/WaitTicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTT/src/WaitNotify/customProdCons.java" beforeDir="false" afterPath="$PROJECT_DIR$/MTT/src/WaitNotify/customProdCons.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,32 +33,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dGbJDRamX9F3A7duJ35ohIwKGb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WaitNotify.Sample.Main" />
+  <component name="RunManager" selected="Application.customProdCons">
+    <configuration name="EX_21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WaitNotify.EX_21" />
       <module name="MTT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WaitNotify.Sample.*" />
+          <option name="PATTERN" value="WaitNotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,26 +61,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WaitNotify.Sample.Main1" />
+    <configuration name="SynchronizeOnObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WaitNotify.SynchronizeOnObjects" />
       <module name="MTT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WaitNotify.Sample.*" />
+          <option name="PATTERN" value="WaitNotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrueFalseTicker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WaitNotify.TrueFalseTicker" />
+      <module name="MTT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WaitNotify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitTicker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WaitNotify.WaitTicker" />
+      <module name="MTT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WaitNotify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="customProdCons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WaitNotify.customProdCons" />
+      <module name="MTT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WaitNotify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.customProdCons" />
+        <item itemvalue="Application.SynchronizeOnObjects" />
+        <item itemvalue="Application.EX_21" />
+        <item itemvalue="Application.WaitTicker" />
+        <item itemvalue="Application.TrueFalseTicker" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -87,23 +147,26 @@
       <updated>1592516621577</updated>
       <workItem from="1592516625275" duration="1892000" />
       <workItem from="1592518542785" duration="5809000" />
+      <workItem from="1593028758492" duration="32000" />
+      <workItem from="1593639255564" duration="5045000" />
+      <workItem from="1594371504978" duration="8000" />
+      <workItem from="1650747482146" duration="5873000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

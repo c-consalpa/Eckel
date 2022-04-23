@@ -1,6 +1,6 @@
 package SharingResources;
 
-import org.omg.PortableServer.THREAD_POLICY_ID;
+//import org.omg.PortableServer.THREAD_POLICY_ID;
 
 public class LockingDifferentTasks {
     public static void main(String[] args) {

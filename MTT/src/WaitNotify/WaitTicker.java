@@ -26,11 +26,11 @@ class CounterTask implements Runnable {
         Random random = new Random();
         synchronized (lock) {
             for (int i = 0; i < 10; i++) {
-//                try {
-//                    Thread.sleep((long) random.nextInt(1000));
-//                } catch (InterruptedException e) {
-//                    e.printStackTrace();
-//                }
+                try {
+                    Thread.sleep((long) random.nextInt(1000));
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 if (counter % 2 == 0) {
                     System.out.println(Thread.currentThread() + " : " + "even " + counter);
                     counter++;

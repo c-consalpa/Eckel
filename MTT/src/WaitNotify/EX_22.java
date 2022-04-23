@@ -7,6 +7,7 @@ public class EX_22 {
     public static void main(String[] args) {
         ExecutorService exec = Executors.newCachedThreadPool();
         Flag flag = new Flag();
+
         FlagSetter flagSetter = new FlagSetter(flag);
         FlagObserver flagObserver = new FlagObserver(flag);
 
@@ -17,7 +18,7 @@ public class EX_22 {
 
 
 class FlagSetter implements Runnable {
-    Flag flag;
+    public volatile Flag flag;
 
     public FlagSetter(Flag flag) {
         this.flag = flag;
@@ -25,15 +26,15 @@ class FlagSetter implements Runnable {
 
     @Override
     public void run() {
-        
-            try {
+
                 while (true) {
-                    Thread.sleep(100);
-                    flag.flg = true;
+                    synchronized (flag) {
+                        flag.flg = true;
+                    }
+
                 }
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+
+
 
     }
 }
@@ -47,15 +48,16 @@ Flag flag;
 
     @Override
     public void run() {
-        synchronized (flag) {
+
             while (true) {
-                System.out.println(flag.flg);
+
                 if (flag.flg == true) {
-                    System.out.println("true detected, reverting..");
-                    flag.flg = false;
+                    synchronized (flag) {
+                        System.out.println("true detected, reverting..");
+                        flag.flg = false;
+                    }
                 }
             }
-        }
     }
 }
 

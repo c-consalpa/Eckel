@@ -1,6 +1,6 @@
 package WaitNotify;
 
-import sun.rmi.runtime.Log;
+//import sun.rmi.runtime.Log;
 
 public class Data {
     private String packet;
